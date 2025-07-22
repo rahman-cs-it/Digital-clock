@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;          /* Make sure the container takes full height */
+  margin: 0;             /* Remove default margin */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
+.time {
+  color: red;
+  font-size: 10rem;
+  /* You can keep display: flex and justify-content if there are child elements you want to center internally */
+}
